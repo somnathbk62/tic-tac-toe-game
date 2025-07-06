@@ -1,6 +1,7 @@
 # 🎮 Tic Tac Toe Game – C++ Console Project
 
 ## 📌 Project Overview
+
 This is a simple **console-based Tic Tac Toe game** implemented in **C++**. It allows two players to play alternately on a 3x3 grid. The project showcases fundamental programming skills, including:
 
 - 2D array manipulation
@@ -14,6 +15,7 @@ This is a simple **console-based Tic Tac Toe game** implemented in **C++**. It a
 ## 🧩 Key Components
 
 ### 🔲 1. Game Board
+
 - Represented using a 3x3 character array: `char board[3][3]`
 - Initially filled with numbers 1–9 for position reference
 - Displays formatted grid using ASCII characters
@@ -21,10 +23,12 @@ This is a simple **console-based Tic Tac Toe game** implemented in **C++**. It a
 ### ⚙️ 2. Core Functions
 
 #### `displayBoard()`
+
 - Displays the current state of the grid with `X` and `O` positions
 - Keeps the layout user-friendly and readable
 
 #### `checkWin()`
+
 - Evaluates if a player has won the game
 - Checks:
   - All rows
@@ -32,12 +36,14 @@ This is a simple **console-based Tic Tac Toe game** implemented in **C++**. It a
   - Two diagonals
 
 #### `isBoardFull()`
+
 - Determines whether the game ends in a draw
 - Returns true if there are no available moves left
 
 ---
 
 ## 🔁 Main Game Loop
+
 - Alternates turns between Player 1 (`X`) and Player 2 (`O`)
 - Accepts and validates player input
 - Updates the board accordingly
@@ -46,6 +52,7 @@ This is a simple **console-based Tic Tac Toe game** implemented in **C++**. It a
 ---
 
 ## ✅ Input Validation
+
 - Accepts only values between 1 and 9
 - Rejects already occupied positions
 - Provides relevant error messages for invalid input
@@ -53,6 +60,7 @@ This is a simple **console-based Tic Tac Toe game** implemented in **C++**. It a
 ---
 
 ## 🔄 Game Flow
+
 1. The empty board (numbered 1–9) is displayed
 2. Players take turns entering their moves
 3. Board updates after every valid move
@@ -66,6 +74,7 @@ This is a simple **console-based Tic Tac Toe game** implemented in **C++**. It a
 ---
 
 ## 👨‍💻 Technical Implementation
+
 - Language: **C++**
 - Tools: Any C++ compiler (e.g., `g++`)
 - No third-party libraries used
@@ -74,6 +83,7 @@ This is a simple **console-based Tic Tac Toe game** implemented in **C++**. It a
 ---
 
 ## 🖥️ User Interface
+
 - Console-based interface
 - Clean grid display with separators
 - Prompts for player turns and errors
@@ -82,6 +92,7 @@ This is a simple **console-based Tic Tac Toe game** implemented in **C++**. It a
 ---
 
 ## 🕹️ Game Rules
+
 1. Player 1 is `X`, Player 2 is `O`
 2. Players alternate turns
 3. The first player to align three symbols (horizontal/vertical/diagonal) wins
@@ -91,8 +102,9 @@ This is a simple **console-based Tic Tac Toe game** implemented in **C++**. It a
 ---
 
 ## 🚀 How to Play
+
 1. Compile the C++ source code using `g++`:
    ```bash
    g++ -o tictactoe tictactoe.cpp
    ./tictactoe
-
+   ```
